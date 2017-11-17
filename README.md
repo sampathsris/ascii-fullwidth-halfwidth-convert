@@ -12,12 +12,12 @@ $ npm install ascii-fullwidth-halfwidth-convert
 ## Usage
 
 ```
-const AsciiFullwidthHalfwidthConvert = require('ascii-fullwidth-halfwidth-convert');
-const converter = new AsciiFullwidthHalfwidthConvert();
+const AFHConvert = require('ascii-fullwidth-halfwidth-convert');
+const converter = new AFHConvert();
 const str = 'THE ｑｕｉｃｋ， ＢＲＯＷＮ\u3000fox.';
 
 converter.toFullWidth(str);
-//=> 'ＴＨＥ\u3000ｑｕｉｃｋ，\u3000ＢＲＯＷＮ\u3000ｆｏｘ．'
+//=> 'ＴＨＥ　ｑｕｉｃｋ，　ＢＲＯＷＮ　ｆｏｘ．'
 
 converter.toHalfWidth(str);
 //=> 'THE quick, BROWN fox.'

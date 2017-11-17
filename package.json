@@ -13,6 +13,13 @@
     "ascii"
   ],
   "author": "Sampath Sitinamaluwa",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sampathsris/ascii-fullwidth-halfwidth-convert"
+  },
+  "bugs": {
+    "url": "https://github.com/sampathsris/ascii-fullwidth-halfwidth-convert/issues"
+  },
   "license": "MIT",
   "devDependencies": {
     "mocha": "^4.0.1",

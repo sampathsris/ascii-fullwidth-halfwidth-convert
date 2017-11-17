@@ -1,0 +1,22 @@
+{
+  "name": "ascii-fullwidth-halfwidth-convert",
+  "version": "0.1.0",
+  "description": "This silly package coverts ASCII characters (0x0020-0x007E) to and from their fullwidth forms (0xFF01-0xFF5E).",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --register mocha-better-spec-reporter --require should test.js"
+  },
+  "keywords": [
+    "full-width",
+    "half-width",
+    "converter",
+    "ascii"
+  ],
+  "author": "Sampath Sitinamaluwa",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^4.0.1",
+    "mocha-better-spec-reporter": "^3.1.0",
+    "should": "^13.1.3"
+  }
+}

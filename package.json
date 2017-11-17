@@ -4,7 +4,7 @@
   "description": "This silly package coverts ASCII characters (0x0020-0x007E) to and from their fullwidth forms (0xFF01-0xFF5E).",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --register mocha-better-spec-reporter --require should test.js"
+    "test": "mocha --reporter mocha-better-spec-reporter --require should test.js"
   },
   "keywords": [
     "full-width",

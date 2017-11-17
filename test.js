@@ -20,7 +20,7 @@ describe('Testing ascii-fullwidth-haflwidth-convert', () => {
     
     const MIXED = 'THE ｑｕｉｃｋ， ＢＲＯＷＮ\u3000fox.';
     const MIXED_TO_FULL = 'ＴＨＥ\u3000ｑｕｉｃｋ，\u3000ＢＲＯＷＮ\u3000ｆｏｘ．';
-    const MIXED_TO_HALF = 'THE quick, BROWN fox.'
+    const MIXED_TO_HALF = 'THE quick, BROWN fox.';
 
     describe('Testing toFullWidth', () => {
         for (let i = 0; i < NUM_CODE_POINTS; i++) {

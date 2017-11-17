@@ -1,7 +1,7 @@
 {
   "name": "ascii-fullwidth-halfwidth-convert",
   "version": "0.1.0",
-  "description": "This silly package coverts ASCII characters (0x0020-0x007E) to and from their fullwidth forms (0xFF01-0xFF5E).",
+  "description": "Convert ASCII to their full-width form and back.",
   "main": "index.js",
   "scripts": {
     "test": "mocha --reporter mocha-better-spec-reporter --require should test.js"

@@ -13,7 +13,7 @@
     "ascii"
   ],
   "author": "Sampath Sitinamaluwa",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "mocha": "^4.0.1",
     "mocha-better-spec-reporter": "^3.1.0",

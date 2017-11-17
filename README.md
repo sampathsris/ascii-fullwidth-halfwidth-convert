@@ -22,3 +22,7 @@ converter.toFullWidth(str);
 converter.toHalfWidth(str);
 //=> 'THE quick, BROWN fox.'
 ```
+
+## License
+
+MIT © Sampath Sitinamaluwa

@@ -1,7 +1,8 @@
 
 describe('Testing ascii-fullwidth-haflwidth-convert', () => {
-    const afhc = require('.');
-    
+    const Converter = require('.');
+    const afhc = new Converter();
+
     const HALF_WIDTH =
         '!"#$%&\'()*+,-./0123456789:;<=>?' +
         '@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_' +

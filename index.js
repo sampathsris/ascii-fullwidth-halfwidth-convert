@@ -49,7 +49,7 @@ const factory = (charProcessor) => {
     }
 }
 
-module.exports = {
-    toFullWidth: factory(toFullWidth),
-    toHalfWidth: factory(toHalfWidth)
+module.exports = function (options) {
+    this.toFullWidth = factory(toFullWidth);
+    this.toHalfWidth = factory(toHalfWidth);
 };

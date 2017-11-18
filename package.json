@@ -1,6 +1,6 @@
 {
   "name": "ascii-fullwidth-halfwidth-convert",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Convert ASCII to their full-width form and back.",
   "main": "index.js",
   "scripts": {

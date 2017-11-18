@@ -1,7 +1,7 @@
 
 # ascii-fullwidth-halfwidth-convert
 
-Coverts ASCII characters in the range '\u0021'-'\u007E' to their equivalent full-width form ('\uFF01'-'\uFF5E'), and vice versa. Also converts between the ASCII space '\u0020' and Ideographic Space '\u3000'.
+Coverts ASCII characters in the range `\u0021`-`\u007E` to their equivalent full-width form (`\uFF01`-`\uFF5E`), and vice versa. Also converts between the ASCII space `\u0020` and Ideographic Space `\u3000`.
 
 ## Install
 
